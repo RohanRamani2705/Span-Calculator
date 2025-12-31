@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun  7 14:01:26 2024
-
-@author: Rohan
-"""
-
 # Calculate a sequence of points, that goes around that tree. Make sure at each branch point in tree we have to sort our children in circular order. So that it goes in a circular order and it self intersections does not happen. (Use Nuance Method)
 
 
@@ -170,3 +163,4 @@ write_to_json(graphs, 'graph_data_recursive.json')
 
 # Limit the decimals to 2 places upon line geenration
 # Generate Random keys using ASCII Codes for verts
+
