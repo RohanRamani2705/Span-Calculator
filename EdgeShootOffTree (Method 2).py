@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 13 12:25:28 2024
-
-@author: Rohan
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 12 15:39:32 2024
-
-@author: Rohan
-"""
-
 # Calculate a sequence of points, that goes around that tree. Make sure at each branch point in tree we have to sort our children in circular order. So that it goes in a circular order and it self intersections does not happen. (Use Nuance Method)
 
 import matplotlib.pyplot as plt
@@ -191,3 +177,4 @@ for k in range(generate_graphs):  # Loop to generate specified number of graphs
     graphs.append(PL_Graph)  # Add graph object to the list of graphs
 
 write_to_json(graphs, 'new_graph_data_shooting_iterative_depth.json')  # Write graphs to JSON file
+
